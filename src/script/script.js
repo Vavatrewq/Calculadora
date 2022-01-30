@@ -44,6 +44,7 @@ function createCalcFunction(){
 
             createAdd(elementNum){
                 this.display.value += elementNum;
+                this.display.focus();
             },
 
             createClear(){
